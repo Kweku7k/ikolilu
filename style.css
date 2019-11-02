@@ -1,0 +1,191 @@
+
+.begining{
+    background-image: url("img/school.jpg");  
+    padding-bottom:30px;
+    background-attachment: fixed;
+}
+
+.navbutton {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+.start{
+ color: white;
+ font-family: 'Poppins', sans-serif;
+ width: 850px;
+ /* font-size: 52px; */
+ margin:130px 70px ;
+}
+
+.starting{
+    font-size: 52px;
+}
+
+.started{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.start-button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.mtech{
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.sbutton{
+    /* background-color: green; */
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cardheader{
+    font-size: 30px;
+    /* bottom: 0; */
+}
+.features{
+    padding-top: 100px;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+}
+.card {
+    display: inline-block;
+    width: 300px;
+    box-shadow: 5px 5px 42px -11px #D0D6CD;
+    border-radius: 30px;
+    text-align: center;
+    padding:10px 10px;
+    white-space: normal;
+    margin-left:20px;
+    margin-right:40px;
+}
+.card-item{
+    /* width: 50px; */
+    padding-top: 10px;
+    border: none;
+    color: grey;
+    /* word-wrap: normal; */
+}
+
+.pricing h1{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+}
+
+.pricing h6{
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+
+
+.qbutton {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* .scrolling-wrapper { */
+    .scrolling-wrapper ::-webkit-scrollbar {
+      display: none;
+    }
+  /* } */
+
+  /* } */   
+
+
+
+  /* ----------------------- */
+
+  /* {
+    box-sizing: border-box;
+  }
+   */
+  /* body {
+    font-family: Arial, Helvetica, sans-serif;
+  } */
+  
+  /* Float four columns side by side */
+  .notp .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .notp .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .notp .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #social{
+      padding-left:15px ;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .notp .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .footer h4{
+      font-size: 15px;
+      color: grey;
+  }
