@@ -128,7 +128,7 @@
 }
 
 /* .scrolling-wrapper { */
-    .scrolling-wrapper ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
       display: none;
     }
   /* } */
@@ -189,3 +189,73 @@
       font-size: 15px;
       color: grey;
   }
+
+
+  /* --------------------ParentsPortal---------------- */
+
+  .header{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: green;
+  }
+
+  .sub-header{
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+
+  }
+
+  .button {
+    background-color:green;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 26px;
+    /* font-weight: bold; */
+  }
+
+  .rectangle-button {
+    background-color:green;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    /* margin-bottom: 30px; */
+    cursor: pointer;
+    /* border-radius: 16px; */
+    /* font-weight: bold; */
+  }
+
+  label{
+    color: white;
+  }
+
+  i{
+    color: green;
+  }
+
+  .messages{
+    background-image: url('img/workspace-pattern.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .form-holder{
+    background-color: rgba(169, 169, 185, 0.486);
+    padding: 10px 20px;
+    
+  }
+
+
+  .scrolling-wrapper ::-webkit-scrollbar { 
+    display: none; 
+}

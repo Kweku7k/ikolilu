@@ -1,0 +1,30 @@
+<section>
+                <!-- <div class="container"> -->
+                  <div class="row" style="width: 100%;">
+                    <div class="col-md-6">
+                     
+                    </div>
+                    <div class="col-md-6">
+                      <h1 class="header">Services</h1>
+                      <h6 class="sub-header">iKolilu Parent Portal connect parent to their ward school and give them access to the records of their wards progress, bills/payments, school newletters etc, since 2016.</h6>
+                    </div>
+                  </div>
+
+                  <div class="card" >
+                      <i class="fas fa-chart-pie fa-4x"></i><span><h4>Academic Records and Analysis</h4></span>
+                      <h6>View Scores, Grades and Performances of your ward</h6>
+                  </div>
+                  <div class="card" >
+                      <i class="fas fa-chart-pie fa-4x"></i><span><h4>Academic Records and Analysis</h4></span>
+                      <h6>View Scores, Grades and Performances of your ward</h6>
+                  </div>
+                  <div class="card" >
+                      <i class="fas fa-chart-pie fa-4x"></i><span><h4>Academic Records and Analysis</h4></span>
+                      <h6>View Scores, Grades and Performances of your ward</h6>
+                  </div>
+                  <div class="card" >
+                      <i class="fas fa-chart-pie fa-4x"></i><span><h4>Academic Records and Analysis</h4></span>
+                      <h6>View Scores, Grades and Performances of your ward</h6>
+                  </div>
+                <!-- </div> -->
+              </section>
