@@ -22,6 +22,8 @@ function enterprise(){
     <h6>Account Management</h6>`
     includes.innerHTML = includesHTML
     card.append(includes) 
+
+    button = document.getElementsByClassName
 } 
 
 function ultimate(){
