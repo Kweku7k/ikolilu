@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:900|Roboto:300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="form.css"> -->
+
     <script src="https://kit.fontawesome.com/091f1122a7.js" crossorigin="anonymous"></script>
     <script src="index.js" defer async></script>
+
 </head>
   <body>
 <section class="begining">
@@ -41,16 +44,53 @@
                         <a class="nav-link" href="#" style="color: white;">About Us</a>
                       </li>
                   </ul>
-                  <span class="navbar-text" style="color: white; margin-right: 8px;">
+                  <span class="navbar-text" style="color: white; margin-right: 8px;" onclick="popin()">
                     <!-- <h4>Sign In</h4> -->
                         <!-- <button class="navbutton">Pill Button</button>  -->
                         Log in
                   </span>
                   <span class="signup" style="color: white;">
-                    <div class="sbutton" >Sign Up</div>
+                    <button class="sbutton" onclick="popin()">Sign Up</button>
                   </span>
                 </div>
               </nav>
+
+              <div class="holdem" onclick="popin()">
+                  <div class="popup">
+                    <div class="form-popup" id="myForm">
+                      <div class="container">
+                      <div class="pop row">
+                        <div class="col-md-6">
+                            <img src="img/logo.png" style="width: 29%;">
+                            <h4>ikolilu does not only give you unlimited acces to your childs information, there are alot of beautiful features waiting to be unlocked</h4>
+                            <!-- <h1>Welcome</h1> -->
+                        </div>
+                      <div class="col-md-6">
+                        <form class="form-trip">
+                          <h2 style="font-weight: bolder;">Sign In</h2>
+                          <!-- <h4 style="color: grey;">sign in to continue</h4> -->
+                          
+                          <!-- <label for="email"><b>Email</b></label> -->
+                          <input type="text" placeholder="Enter Email" name="email" required>
+                          <br>
+                          
+                          <!-- <label for="psw"><b>Password</b></label> -->
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                          <br>
+                          <button type="submit" class="btn">submit</button>
+                          <br>  
+                          <h6>Forgot Username/Password</h6>
+                          <h6>Create a new account</h6>
+                          <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+                        </form>
+                  
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+
               <div class="start">
 
                 <h2 class="starting">Expand your global horizon and educational accessibility</h2>
@@ -79,7 +119,7 @@
                   </div>  
                   <div class="col-md-4">
                       <img src="img/003-pen-01.png" style="width: 130px;">
-                      <h4 class="Cloud" style="font-family: font-weight: bold;">
+                      <h4 class="Cloud" style="font-weight: bold;">
                          Customize your site
                       </h4>
                       <h6>iKolilu is highly customizable, with options for configuring your logo, portal, and more. You can even customize the site terminology or create your own color scheme.  </h6>
@@ -251,9 +291,6 @@
 
                               
 
-                                          
-                  <!-- </div> -->
-                  <!-- </div> -->
                 </div>
               </section>
 
@@ -302,16 +339,39 @@
     <h4 class="footertxt">
       iKolilu is Love and Progress. Our moniter extols our passion and forward-thinking approach to Day-To-Day management.
       We have over 20 years experience in providing unique and expert technological processes and procedures to educational institutions and individuals alike . Our tailor-made approach makes us the industry's preferred choice hence our extensive portfolio.
-      Every school is special so You cant go wrong with iKolllu! 
+      Every schoofont-family:l is specfial so You cant go wrong with iKolllu! 
     </h4>
   </div>
     </section>
                 </div>
               </section>
+
+              
+
+
+                <script>
+
+
+function popin() {
+    var box = document.getElementsByClassName('holdem')[0];
+    if (!box.style.display || box.style.display == "none") {
+        box.style.display = "block";
+    }
+    else {
+        box.style.display = "none";
+    }
+}
+
+// function close(){
+//   var fish = document.getElementsByClassName('holdem')[0];
+//   fish.style.display = 'none';
+// }
+</script>
+                  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootfont-family:strapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

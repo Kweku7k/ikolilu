@@ -245,7 +245,7 @@
   }
 
   .messages{
-    background-image: url('img/cut.png');
+    background-image: url('img/office-paint-colors\ 1.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -300,6 +300,55 @@
 .Services{
   width:100%;
 }
+
+
+.popup{
+  background-color: white;
+  position: fixed;
+  margin-left: 10%;
+  margin-right:10% ;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  border-radius: 20px;
+  top: 15%;
+
+}
+.form-trip{
+  text-align: center;
+}
+
+.form-trip input{
+  /* background-color: pink; */
+  border-radius: 15px;
+  border: 0px solid grey;
+  margin: 1%;
+  padding: 2%;
+  padding-left:5% ;
+  width: 70%;
+  background-color: rgba(128, 128, 128, 0.157);
+}
+
+.btn{
+  border-radius: 30px;
+  background-color: turquoise;
+  padding:7px 30px;
+  margin: 2% auto 2%;
+  text-align: center;
+  color: white;
+}
+
+.holdem{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.602);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+}
+
 
 @media (min-width: 320px) and (max-width: 480px) {
   
@@ -391,7 +440,7 @@
 }
 
 .about .sub-header{
-  font-size: 15px;
+  font-size : 15px;
 }
 
 .form-holder{
