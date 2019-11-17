@@ -18,7 +18,7 @@
 </head>
   <body>
 <section class="begining">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="color: white;" >
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="color: white;" >
                 <a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 70px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -45,51 +45,53 @@
                       </li>
                   </ul>
                   <span class="navbar-text" style="color: white; margin-right: 8px;" onclick="popin()">
-                    <!-- <h4>Sign In</h4> -->
-                        <!-- <button class="navbutton">Pill Button</button>  -->
+            
                         Log in
                   </span>
                   <span class="signup" style="color: white;">
-                    <button class="sbutton" onclick="popin()">Sign Up</button>
+                    <div class="sbutton" onclick="popin()">Sign Up</div>
+                  </span>
+                </div>
+              </nav> -->
+
+              <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="color: black;" >
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width: 70px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"  id="navbarText" style="color: black;">
+                  <ul class="navbar-nav m-auto" style="color: black;" >
+                    <li class="nav-item active" style="color: black;">
+                      <a class="nav-link" href="#" style="color: black;">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: black;">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: black;">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                          <a class="nav-link" href="#" style="color: black;">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">About Us</a>
+                      </li>
+                  </ul>
+                  <span class="navbar-text" style="color: black; margin-right: 8px;">
+                    <!-- <h4>Sign In</h4> -->
+                        <!-- <button class="navbutton">Pill Button</button>  -->
+                        Log in 
+                  </span>
+                  <span class="signup" style="color: black;">
+                    <div class="sbutton" style="color: black; border: 1px solid black" >Sign Up</div>
                   </span>
                 </div>
               </nav>
 
-              <div class="holdem" onclick="popin()">
-                  <div class="popup">
-                    <div class="form-popup" id="myForm">
-                      <div class="container">
-                      <div class="pop row">
-                        <div class="col-md-6">
-                            <img src="img/logo.png" style="width: 29%;">
-                            <h4>ikolilu does not only give you unlimited acces to your childs information, there are alot of beautiful features waiting to be unlocked</h4>
-                            <!-- <h1>Welcome</h1> -->
-                        </div>
-                      <div class="col-md-6">
-                        <form class="form-trip">
-                          <h2 style="font-weight: bolder;">Sign In</h2>
-                          <!-- <h4 style="color: grey;">sign in to continue</h4> -->
-                          
-                          <!-- <label for="email"><b>Email</b></label> -->
-                          <input type="text" placeholder="Enter Email" name="email" required>
-                          <br>
-                          
-                          <!-- <label for="psw"><b>Password</b></label> -->
-                          <input type="password" placeholder="Enter Password" name="psw" required>
-                          <br>
-                          <button type="submit" class="btn">submit</button>
-                          <br>  
-                          <h6>Forgot Username/Password</h6>
-                          <h6>Create a new account</h6>
-                          <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
-                        </form>
-                  
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-                  </div>
+              
 
               <div class="start">
 
@@ -98,8 +100,15 @@
                     single product at every point of contact 
                     with web  enabling technologies</h6>
                     <div class="portal row">  
-                      <a href="parents.html"><button class="start-button">I am a parent</button></a>
-                      <button class="start-button" style="background-color: white; color: green;">I am a student</button>
+                      <div class="col-md-3">
+                        <a href="parents.html"><button class="start-button">I am a parent</button></a>
+
+                      </div>
+                      <div class="col">
+
+                        <a href="google.com"><button class="start-button" style="background-color: white; color: green;">I am a student</button></a>
+                      </div>
+                    
                     </div>
               </div>  
             </section>
@@ -346,7 +355,41 @@
                 </div>
               </section>
 
-              
+              <div class="holdem" onclick="popin()">
+                <div class="popup">
+                  <div class="form-popup" id="myForm">
+                    <div class="container">
+                    <div class="pop row">
+                      <div class="col-md-6">
+                          <img src="img/logo.png" style="width: 29%;">
+                          <h4>ikolilu does not only give you unlimited acces to your childs information, there are alot of beautiful features waiting to be unlocked</h4>
+                          <!-- <h1>Welcome</h1> -->
+                      </div>
+                    <div class="col-md-6">
+                      <form class="form-trip">
+                        <h2 style="font-weight: bolder;">Sign In</h2>
+                        <!-- <h4 style="color: grey;">sign in to continue</h4> -->
+                        
+                        <!-- <label for="email"><b>Email</b></label> -->
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        <br>
+                        
+                        <!-- <label for="psw"><b>Password</b></label> -->
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <br>
+                        <button type="submit" class="btn">submit</button>
+                        <br>  
+                        <h6>Forgot Username/Password</h6>
+                        <a href="google.com"><h6>Create a new account</h6></a>
+                        <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+                      </form>
+                
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
 
 
                 <script>

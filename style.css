@@ -351,7 +351,9 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+  body{
+    width:100%
+  }
   .start{
     width: auto;
     margin: 10px;
@@ -365,11 +367,14 @@
     text-align: center;
   }
   .start .portal{
-    width : 100%
+    text-align: center;
+    margin: 0;
   }
   .start-button{
-    width: 70%;
+    width: 70%%;
     margin-top: 7%;
+    text-align: center;
+    /* margin: auto; */
   }
   .features-space{
     margin-top: 130px;
@@ -378,6 +383,11 @@
     padding-top: 12px;
     /* background-color: black; */
   }
+.popup{
+  margin-top:2%;
+  top: 2%;
+}
+
   .card{
     width: 90%;
     margin: auto 10% 100px 10%;
