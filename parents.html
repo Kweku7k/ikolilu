@@ -238,6 +238,7 @@
                   </section>
 
                   <div class="holdem" onclick="popin()">
+                      <i class="far fa-times-circle"></i>
                     <div class="popup">
                       <div class="form-popup" id="myForm">
                         <div class="container">
@@ -253,16 +254,16 @@
                             <!-- <h4 style="color: grey;">sign in to continue</h4> -->
                             
                             <!-- <label for="email"><b>Email</b></label> -->
-                            <input type="text" placeholder="Enter Email" name="email" required>
+                            <input type="text" placeholder="Enter Email" name="email">
                             <br>
                             
                             <!-- <label for="psw"><b>Password</b></label> -->
-                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <input type="password" placeholder="Enter Password" name="psw" >
                             <br>
                             <button type="submit" class="btn">submit</button>
                             <br>  
-                            <h6>Forgot Username/Password</h6>
-                            <a href="google.com"><h6>Create a new account</h6></a>
+                            <h6 class="ping">Forgot Username/Password</h6>
+                            <a href="google.com"><h6 class="ping">Create a new account</h6></a>
                             <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
                           </form>
                     
@@ -278,11 +279,18 @@
 
                     function popin() {
                         var box = document.getElementsByClassName('holdem')[0];
+                        var popup = document.getElementsByClassName('popup')[0];
+                        // console.log(popup)
+
+                        // var 
                         if (!box.style.display || box.style.display == "none") {
                             box.style.display = "block";
+                            // popup.style.display = "block";
                         }
                         else {
-                            box.style.display = "none";
+                            // box.style.display = "none";
+                            popup.style.display = "block";
+
                         }
                     }
                     

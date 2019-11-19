@@ -349,6 +349,10 @@
   display: none;
 }
 
+.ping{
+font-size: 10px;
+color: grey;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
   body{
@@ -385,7 +389,7 @@
   }
 .popup{
   margin-top:2%;
-  top: 2%;
+  top: 5%;
 }
 
   .card{
