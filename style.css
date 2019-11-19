@@ -347,6 +347,7 @@
   right: 0;
   left: 0;
   display: none;
+  cursor: pointer;
 }
 
 .ping{
@@ -354,10 +355,20 @@ font-size: 10px;
 color: grey;
 }
 
+
+
+
+
+
+
 @media (min-width: 320px) and (max-width: 480px) {
   body{
     width:100%
   }
+        .popup input{
+          width: 100%;
+          
+        }
   .start{
     width: auto;
     margin: 10px;
@@ -468,6 +479,11 @@ color: grey;
 .services :nth-child(2) { order: 1; }
 }
 
+
+#close-login-modal-btn{
+  padding-right: 10px;
+  /* color: black; */
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .start{
