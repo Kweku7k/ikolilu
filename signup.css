@@ -26,7 +26,7 @@ select {
     width: 168px;
     /* padding: 5px; */
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.5;
     border: 0;
     border-radius: 0;
     /* height: 34px; */
@@ -34,10 +34,15 @@ select {
     -moz-appearance: none;
     appearance: none;
     color: #000;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid black;
     margin-top: 7%;
     width: 100%;
   }
+
+input:hover{
+    border-bottom: 1px solid blue;
+    
+}
 
 .sign{
     margin-bottom: 7%;
@@ -45,14 +50,39 @@ select {
 
 .vl{
     height: 100%;
-    border:1px solid rgba(0, 0, 0, 0.178);
+    border:0.2px solid rgba(0, 0, 0, 0.075);
     width: 1px;
     margin: auto;
+    vertical-align: middle;
+    margin-bottom: 0;
 }
+
+.button {
+    background-color: turquoise;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
 
 .terms{
     width: 30%;
     color: grey;
     margin: auto;
     margin-top:4% ;
+}
+
+.sign{
+    margin-top: 7%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .terms{
+        width: 100%;
+    }
 }
