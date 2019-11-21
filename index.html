@@ -10,11 +10,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:900|Roboto:300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="form.css"> -->
+
     <script src="https://kit.fontawesome.com/091f1122a7.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer async></script>
+
 </head>
   <body>
 <section class="begining">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="color: white;" >
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="color: white;" >
                 <a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 70px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -40,25 +44,71 @@
                         <a class="nav-link" href="#" style="color: white;">About Us</a>
                       </li>
                   </ul>
-                  <span class="navbar-text" style="color: white; margin-right: 8px;">
-                    <!-- <h4>Sign In</h4> -->
-                        <!-- <button class="navbutton">Pill Button</button>  -->
-                        Sign in
+                  <span class="navbar-text" style="color: white; margin-right: 8px;" onclick="popin()">
+            
+                        Log in
                   </span>
                   <span class="signup" style="color: white;">
-                    <div class="sbutton" >Sign Up</div>
+                    <div class="sbutton" onclick="popin()">Sign Up</div>
+                  </span>
+                </div>
+              </nav> -->
+
+              <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="color: black;" >
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width: 70px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"  id="navbarText" style="color: black;">
+                  <ul class="navbar-nav m-auto" style="color: black;" >
+                    <li class="nav-item active" style="color: black;">
+                      <a class="nav-link" href="#" style="color: black;">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: black;">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: black;">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                          <a class="nav-link" href="#" style="color: black;">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">About Us</a>
+                      </li>
+                  </ul>
+                  <span class="navbar-text" style="color: black; margin-right: 8px;">
+                    <!-- <h4>Sign In</h4> -->
+                        <!-- <button class="navbutton">Pill Button</button>  -->
+                        Log in 
+                  </span>
+                  <span class="signup" style="color: black;">
+                    <div class="sbutton" style="color: black; border: 1px solid black" >Sign Up</div>
                   </span>
                 </div>
               </nav>
+
+              
+
               <div class="start">
 
                 <h2 class="starting">Expand your global horizon and educational accessibility</h2>
                 <h6 class="started">Our solution provides total visibilty of a 
                     single product at every point of contact 
                     with web  enabling technologies</h6>
-                    <div class="row">  
-                      <button class="start-button" style="margin-left:70px ;">I am a parent</button>
-                      <button class="start-button" style="margin-left: 20px;">I am a student</button>
+                    <div class="portal row">  
+                      <div class="col-md-3">
+                        <a href="parents.html"><button class="start-button">I am a parent</button></a>
+
+                      </div>
+                      <div class="col">
+
+                        <a href="google.com"><button class="start-button" style="background-color: white; color: green;">I am a student</button></a>
+                      </div>
+                    
                     </div>
               </div>  
             </section>
@@ -66,19 +116,19 @@
                 <div class="container text-center" style="padding-top:50px;">
                   <div class="techies text-center" style="margin-top: 50px; margin-bottom: 50px;" >
                     <h4 class="mtech" style="margin-top: 50px;">Our Mordern Technologies</h4>
-                    <h6>Below are the technologies applied in iKolilu School Management System </h6>
+                    <h6>Below are some of the technologies applied in iKolilu School Management System </h6>
                   </div>
                   <div class="row">
                   <div class="col-md-4">
                     <img src="img/007-touch-screen-01.png" style="width: 130px;">
-                    <h4 class="Cloud" style="font-family: font-weight: bold;">
+                    <h4 class="Cloud" style="font-weight: bold;">
                        Mobile
                     </h4>
                     <h6>Access the full feature set of our site via mobile devices such as phone and tablets. Each type of device has its own customized interface.  </h6>
                   </div>  
                   <div class="col-md-4">
                       <img src="img/003-pen-01.png" style="width: 130px;">
-                      <h4 class="Cloud" style="font-family: font-weight: bold;">
+                      <h4 class="Cloud" style="font-weight: bold;">
                          Customize your site
                       </h4>
                       <h6>iKolilu is highly customizable, with options for configuring your logo, portal, and more. You can even customize the site terminology or create your own color scheme.  </h6>
@@ -95,11 +145,11 @@
                 </div>
               </section>
 
-              <h2 style="text-align: center; font-weight: bold; margin-top:10% ;">Some of our awesome features include</h2>
+              <h2 class="features-space">Some of our awesome features include</h2>
 
               <section class="features">
                 <div class="container">
-                <div class="scrolling-wrapper" >
+                <div class="scrolling-wrapper">
 
                     <div class="card">
                         <div class="picture" style="text-align:center;">
@@ -119,7 +169,7 @@
 
                   <div class="card">
                     <div class="picture" style="text-align:center;">
-                    <img src="img/student-01.png" style="width: 60px; margin: auto;;">
+                    <img src="img/student-01.png" style="width: 60px; margin: auto;">
                     </div>
                   <h4>Student Admission Management</h4>
                   <h6 class="card-item" style="padding-top:0;">Managing enquires from prospective students</h6>
@@ -129,7 +179,7 @@
                   <h6 class="card-item">Captures parents and other relatives information</h6>
                   <h6 class="card-item">Captures student medical information</h6>
                   </div>
-
+  
 
                   
                   <div class="card">
@@ -164,13 +214,13 @@
               </section>
 
             <div style="text-align: center;">
-                <img src="img/ussd-2.png" style="margin: auto; text-align: center; margin-top: 90px;">  
+                <img src="img/ussd-2.png"class="ussd">  
             </div>  
             
 
               <section class="pricing">
                   <h1 style="padding-top: 60px;">Pricing</h1>
-                  <h6 style="text-align: center; padding-bottom: 40px;">Some trigger text just incase</h6>
+                  <h6 style="text-align: center; padding-bottom: 40px;">We take both you and your ward into consideration</h6>
                   <!-- <div class="wrapper"> -->
                     <!-- <div class="container"> -->
                   <div class="row" style="width: 100%;">
@@ -186,6 +236,7 @@
                             <h6>Academics Management</h6>
                             <h6>Billing and Payment</h6>
                             <h6>Support</h6>
+                            
                           </div>
                                 </div>
 
@@ -201,6 +252,10 @@
                   <h6>Academics Management</h6>
                   <h6>Billing and Payment</h6>
                   <h6>Support</h6>
+                  <div class="standard">
+
+                  </div>
+                  <i class="fas fa-caret-down" onclick="standard()"></i>
                 </div>
                       </div>
 
@@ -216,6 +271,10 @@
                       <h6>Academics Management</h6>
                       <h6>Billing and Payment</h6>
                       <h6>Support</h6>
+                      <div class="enterprise">
+
+                      </div>
+                      <i class="fas fa-caret-down" onclick="enterprise()"></i>
                     </div>
                           </div>
 
@@ -231,19 +290,21 @@
                           <h6>Academics Management</h6>
                           <h6>Billing and Payment</h6>
                           <h6>Support</h6>
+                          <div class="ultimate">
+
+                          </div>
+                          <i class="fas fa-caret-down" onclick="ultimate()"></i>
+                        </div>
                         </div>
                               </div>
 
                               
 
-                                          
-                  <!-- </div> -->
-                  <!-- </div> -->
                 </div>
               </section>
 
               <section class="footer" style="padding-top: 7%; font-size: 20px;">
-                <div class = row style="width: 100%;">
+                <div class = "feet row" style="width: 100%;">
                   <div class="col-md-2" style="text-align: center;">
                     <img src="img/logo.png" style="width: 90px;">
                   </div>
@@ -281,20 +342,79 @@
   <i class="fab fa-google-plus-g" id=social></i>
 </div>
 
+</div>
 <section>
-    <h4 style="width: 1230px; margin-left: 3%; margin-top: 3%;">
+  <div class="container">
+    <h4 class="footertxt">
       iKolilu is Love and Progress. Our moniter extols our passion and forward-thinking approach to Day-To-Day management.
       We have over 20 years experience in providing unique and expert technological processes and procedures to educational institutions and individuals alike . Our tailor-made approach makes us the industry's preferred choice hence our extensive portfolio.
-      Every school is special so You cant go wrong with iKolllu! 
+      Every schoofont-family:l is specfial so You cant go wrong with iKolllu! 
     </h4>
+  </div>
     </section>
-                    </div>
                 </div>
               </section>
+
+              <div class="holdem" onclick="popin()">
+                <div class="popup">
+                  <div class="form-popup" id="myForm">
+                    <div class="container">
+                    <div class="pop row">
+                      <div class="col-md-6">
+                          <img src="img/logo.png" style="width: 29%;">
+                          <h4>ikolilu does not only give you unlimited acces to your childs information, there are alot of beautiful features waiting to be unlocked</h4>
+                          <!-- <h1>Welcome</h1> -->
+                      </div>
+                    <div class="col-md-6">
+                      <form class="form-trip">
+                        <h2 style="font-weight: bolder;">Sign In</h2>
+                        <!-- <h4 style="color: grey;">sign in to continue</h4> -->
+                        
+                        <!-- <label for="email"><b>Email</b></label> -->
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        <br>
+                        
+                        <!-- <label for="psw"><b>Password</b></label> -->
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <br>
+                        <button type="submit" class="btn">submit</button>
+                        <br>  
+                        <h6>Forgot Username/Password</h6>
+                        <a href="google.com"><h6>Create a new account</h6></a>
+                        <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+                      </form>
+                
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
+
+
+                <script>
+
+
+function popin() {
+    var box = document.getElementsByClassName('holdem')[0];
+    if (!box.style.display || box.style.display == "none") {
+        box.style.display = "block";
+    }
+    else {
+        box.style.display = "none";
+    }
+}
+
+// function close(){
+//   var fish = document.getElementsByClassName('holdem')[0];
+//   fish.style.display = 'none';
+// }
+</script>
+                  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootfont-family:strapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
