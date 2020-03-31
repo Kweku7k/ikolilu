@@ -302,6 +302,14 @@
 }
 
 
+.show{
+  display: block;
+}
+
+
+
+
+
 .popup{
   background-color: white;
   position: fixed;
